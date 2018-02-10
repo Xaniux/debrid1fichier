@@ -2,9 +2,9 @@
 Bash script to automatically download 1fichier free links.
 
 
-Setup:
+# Setup<a id="orgheadline2"></a>
 Modify destination folder in code.
 
 
-Usage:
+# Usage<a id="orgheadline2"></a>
 ./debrid1fichier.sh <url_1> <url_2> ...
