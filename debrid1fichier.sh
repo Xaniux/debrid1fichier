@@ -20,13 +20,13 @@ multi=$#
 while [ $multi -ne 0 ]
 
 do
-
-	url=$1
+	langfr="&lg=fr"
+	url="$1&langfr"
 
 
 	#Get file name
  
-	linenumbernom=` curl --silent $url | grep -ni "name" | cut -f1 -d: `
+	linenumbernom=` curl --silent $url | grep -ni "nom" | cut -f1 -d: `
 
 
 	linenumbernom=$(($linenumbernom + 1))
