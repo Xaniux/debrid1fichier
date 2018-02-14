@@ -3,7 +3,7 @@ Bash script to automatically download 1fichier free links.
 
 
 # Setup<a id="orgheadline2"></a>
-Modify destination folder in code.
+Modify destination folder in code (actual folder by default).
 
 
 # Usage<a id="orgheadline2"></a>
